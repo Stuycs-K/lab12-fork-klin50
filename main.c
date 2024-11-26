@@ -19,7 +19,7 @@ int main(){
     printf("%d %dsec\n",PID,r);
     sleep(r);
     printf("%d finished after %dsec\n",PID,r);
-    return(r);
+    exit(r);
   }
   if(p != 0){
     pid_t d = wait(&status);
